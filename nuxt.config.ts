@@ -6,8 +6,8 @@ export default defineNuxtConfig({
     public: {
       title: '随遇而安',
       subtitle: '在自由的空气中漂浮',
-      description: '生活吐槽 & 学习记录'
-    }
+      description: '生活吐槽 & 学习记录',
+    },
   },
   devtools: { enabled: true },
 
@@ -17,11 +17,7 @@ export default defineNuxtConfig({
     },
   },
 
-  vite: {
-    optimizeDeps: {
-      include: [
-        'dayjs', // CJS
-      ],
-    }
-  }
+  experimental: {
+    payloadExtraction: 'client',
+  },
 })

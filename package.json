@@ -10,9 +10,7 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "@nuxt/content": "^3.13.0",
-    "@zvonimirsun/nuxt-theme-next": "^0.0.1",
-    "dayjs": "^1.11.20",
+    "@zvonimirsun/nuxt-theme-next": "^0.0.2",
     "nuxt": "^4.4.4"
   },
   "devDependencies": {
