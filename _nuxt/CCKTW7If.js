@@ -1,0 +1,1 @@
+import{f as o,g as t,r as s,o as c}from"./Ch9oljZT.js";const n={},r={class:"p-10 bg-content shadow-lg post-block"};function a(e,l){return c(),t("div",r,[s(e.$slots,"default")])}const d=o(n,[["render",a]]);export{d as default};
