@@ -17,6 +17,10 @@ export default defineNuxtConfig({
     },
   },
 
+  icon: {
+    iconifyApiEndpoint: 'https://cdn.ovooo.cc/iconify'
+  },
+
   experimental: {
     payloadExtraction: 'client',
   },

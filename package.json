@@ -1,5 +1,6 @@
 {
   "name": "my-nuxt-blog",
+  "packageManager": "pnpm@10.30.3",
   "private": true,
   "type": "module",
   "scripts": {
