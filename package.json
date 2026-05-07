@@ -1,0 +1,22 @@
+{
+  "name": "my-nuxt-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:prepare": "nuxt prepare",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.13.0",
+    "@zvonimirsun/nuxt-theme-next": "^0.0.1",
+    "dayjs": "^1.11.20",
+    "nuxt": "^4.4.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^8.2.0",
+    "@nuxt/eslint": "^1.15.2"
+  }
+}
