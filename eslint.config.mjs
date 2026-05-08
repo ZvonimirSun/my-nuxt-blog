@@ -4,6 +4,6 @@ import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt(await antfu(
   {
-    ignores: ['**/*.md'],
+    markdown: false,
   },
 ))

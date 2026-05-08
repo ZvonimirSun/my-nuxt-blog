@@ -9,10 +9,12 @@
     "dev:prepare": "nuxt prepare",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@zvonimirsun/nuxt-theme-next": "^0.0.2",
+    "@nuxt/content": "^3.13.0",
+    "@zvonimirsun/nuxt-theme-next": "^0.0.3",
     "nuxt": "^4.4.4"
   },
   "devDependencies": {

@@ -7,6 +7,10 @@ export default defineNuxtConfig({
       title: '随遇而安',
       subtitle: '在自由的空气中漂浮',
       description: '生活吐槽 & 学习记录',
+
+      search: {
+        enable: true,
+      }
     },
   },
   devtools: { enabled: true },
