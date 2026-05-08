@@ -5,5 +5,6 @@ import withNuxt from './.nuxt/eslint.config.mjs'
 export default withNuxt(await antfu(
   {
     markdown: false,
+    typescript: true,
   },
 ))

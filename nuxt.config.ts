@@ -10,7 +10,7 @@ export default defineNuxtConfig({
 
       search: {
         enable: true,
-      }
+      },
     },
   },
   devtools: { enabled: true },
@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   },
 
   icon: {
-    iconifyApiEndpoint: 'https://cdn.ovooo.cc/iconify'
+    iconifyApiEndpoint: 'https://cdn.ovooo.cc/iconify/',
   },
 
   experimental: {
